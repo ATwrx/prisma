@@ -109,7 +109,7 @@ As you might recognize, the HTTP endpoint for the database service is composed o
 
 - The **cluster's domain** (specified as the `host` property in `~/.prisma/config.yml`): `http://localhost:4466/my-app/dev`
 - The **name** of the Prisma service specified in `prisma.yml`: `my-app`
-- The **stage** to which the service is deployed, by default this is calleds: `dev`
+- The **stage** to which the service is deployed, by default this is called: `dev`
 
 Note that the endpoint is referenced in `server/src/index.js`. There, it is used to instantiate `Prisma` in order to create a binding between the application schema and the database schema:
 
